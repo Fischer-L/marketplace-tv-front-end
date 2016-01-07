@@ -1,0 +1,17 @@
+{
+    "default_locale": "en-US",
+    "description": "Firefox Web Apps",
+    "developer": {
+        "name": "Mozilla",
+        "url": "http://mozilla.org"
+    },
+    "icons": {
+        "336": "app-icons/appic_web_apps.png"
+    },
+    "launch_path": "/marketplace-tv-front-end/index.html",
+    "appcache_path": "manifest.appcache",
+    "name": "Stage",
+    "origin": "http://fischer-l.github.io",
+    "type": "web",
+    "version": "20160107.175438"
+}
