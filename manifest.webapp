@@ -8,9 +8,8 @@
     "icons": {
         "336": "app-icons/appic_web_apps.png"
     },
-    "launch_path": "/marketplace-tv-front-end/index.html",
-    "appcache_path": "manifest.appcache",
-    "name": "Stage",
+    "launch_path": "/marketplace-tv-front-end/tutorial/index.html",
+    "name": "Web Apps Tutorial",
     "origin": "http://fischer-l.github.io",
     "type": "web",
     "version": "20160107.175438"

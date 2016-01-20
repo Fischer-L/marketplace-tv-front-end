@@ -84,50 +84,86 @@ body {
 
     color: #FFF;
 }
+.slide-section.mid {
+    position: relative;
+}
 
 .slide-section.bottom {
     bottom: 5.5rem;
 }
 
-.slide-description.circle {
+.slide-description-holder {
+    height: 8rem;
+    line-height: 8rem;
+
     display: inline-block;
-    margin: 0 .5rem;
+    margin: 0 1.5rem;
+    padding: 0 4rem;
     border-radius: 4rem;
     box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .5);
-
-    font-size: 4.5rem;
-    text-align: center;
 
     background-color: #000;
 }
 
-.slide-description.ok-key {
-    width: 8rem;
-}
-
-.slide-description.option-key {
-    width: 22rem;
-}
-
-.slide-description.apps-key {
-    width: 16rem;
+.slide-description-holder > .slide-description {
+    font-size: 4.5rem;
 }
 
 .slide-tutorial-image {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: -1;
 }
 
 .smart-button::-moz-focus-inner {
     border: 0;
 }
 
+.smart-button:nth-child(2) {
+    margin-left: 4rem;
+}
+
 .smart-button[type=rounded-corner-text] {
     width: 30.4rem;
-    margin: 0 1.5rem;
 
     font-family: "Fira Sans OT", "Fira Sans", FiraSansWeb, sans-serif;
     font-size: 4.5rem;
 
     background-image: none;
+}
+
+#slide-2-circle-button,
+#slide-2-circle-button-icon,
+#slide-2-circle-button-label,
+#slide-3-label {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#slide-2-circle-button {
+    top: 46rem;
+    width: 21.8rem;
+    height: 21.8rem;
+    background: #fff;
+    border-radius: 50% 50%;
+}
+
+#slide-2-circle-button-icon {
+    top: 4.5rem;
+    width: 9rem;
+    height: 9rem;
+}
+
+#slide-2-circle-button-label {
+    bottom: 4.5rem;
+    font-size: 1.9rem;
+}
+
+#slide-3-label {
+    color: #fff;
+    top: 19.5rem;
+    font-size: 4.2rem;
+    font-style: italic;
 }
